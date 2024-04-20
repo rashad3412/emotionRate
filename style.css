@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg {
+  margin: auto;
+  display: block;
+  width: 900px;
+  height: 700px;
+  border: black solid 1px;
+  border-right: solid 2px blue;
+  background-color: black;
+  border-radius: 12px;
+  position: absolute;
+  border-radius: 2px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.render {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  left: 60px;
+  top: 60px;
+  color: white;
+  width: 550px;
+  height: 375px;
+  font-size: 75px;
+}
+
+.emotions-line {
+}
+
+.bg-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: black solid 1px;
+  color: white;
+  background-color: blue;
+  border-radius: 2px;
+  width: 900px;
+  height: 40px;
+  padding: 0;
+}
+
+.emotion-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  height: 700px;
+}
+
+.emotion-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  border: solid white 1px;
+  width: 105px;
+  height: 105px;
+  font-size: 25px;
+}
+#insideBox {
+  border-bottom: solid white 1px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 150px;
+  position: relative;
+  left: 2px;
+}
+
+#emoji-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+  bottom: 35px;
+}
+
+.line {
+  display: flex;
+  position: relative;
+  left: -150px;
+  bottom: 1px;
+  border-left: 2px solid blue;
+  height: 660px;
+  color: white;
+}
+.line-2 {
+  display: flex;
+  position: relative;
+  left: -1px;
+  bottom: 1px;
+  margin-top: 0px;
+  border-left: 6px solid blue;
+  height: 660px;
+  color: white;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+  font-size: 18px;
+  font-weight: 400px bold;
+  top: 50px;
+}
+
+#insideP {
+  text-align: center;
+  border: none;
+}
