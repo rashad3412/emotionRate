@@ -114,6 +114,7 @@ function displaySadText() {
     randomCircles();
     mouseMoveSad();
     mouseOutSad();
+
     circles[0].textContent = sadArr[0].emotion;
     circles[1].textContent = sadArr[1].emotion;
     circles[2].textContent = sadArr[2].emotion;
