@@ -21,7 +21,7 @@
   right: 0;
 }
 
-.render {
+.desc {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -29,15 +29,55 @@
   text-align: center;
   position: relative;
   margin: 0 auto;
-  left: 60px;
-  top: 60px;
+  left: 20px;
+  top: 45px;
   color: white;
-  width: 550px;
-  height: 375px;
+  width: 650px;
+  height: 575px;
   font-size: 75px;
+  /* border: solid white 1px; */
+  overflow: hidden;
 }
 
-.emotions-line {
+.emotion-circle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  top: 100px;
+  right: 170px;
+  overflow: hidden;
+}
+
+.circles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: pink;
+  position: relative;
+  width: 85px;
+  height: 85px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+#circle-1 {
+  margin: 10px;
+}
+#circle-2 {
+  margin: 10px;
+}
+#circle-3 {
+  margin: 10px;
+}
+#circle-4 {
+  margin: 10px;
+}
+#circle-5 {
+  margin: 10px;
+}
+#circle-6 {
+  margin: 10px;
 }
 
 .bg-content {
@@ -70,6 +110,7 @@
   width: 105px;
   height: 105px;
   font-size: 25px;
+  cursor: pointer;
 }
 #insideBox {
   border-bottom: solid white 1px;
