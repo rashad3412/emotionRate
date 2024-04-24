@@ -2,16 +2,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 .bg {
+  background: radial-gradient(
+    circle at -8.9% 51.2%,
+    rgb(48, 173, 236) 0%,
+    rgb(89, 170, 192) 15.9%,
+    rgb(24, 105, 84) 15.9%,
+    rgb(11, 123, 80) 24.4%,
+    rgb(19, 30, 37) 24.5%,
+    rgb(19, 30, 37) 66%
+  );
   margin: auto;
   display: block;
   width: 900px;
   height: 700px;
   border: black solid 1px;
-  border-right: solid 2px rgb(0, 166, 255);
-  background-color: black;
+  border: solid 2px rgb(0, 166, 255);
   border-radius: 12px;
   position: absolute;
   border-radius: 2px;
@@ -53,7 +62,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
+  border: rgb(194, 194, 194) 1px solid;
   position: relative;
   width: 85px;
   height: 85px;
@@ -73,9 +82,8 @@
   color: white;
   background-color: rgb(0, 166, 255);
   border-radius: 2px;
-  width: 900px;
+  width: 897px;
   height: 40px;
-  padding: 0;
 }
 
 .emotion-container {
@@ -96,6 +104,7 @@
   height: 105px;
   font-size: 25px;
   cursor: pointer;
+  background-color: transparent;
 }
 #insideBox {
   border-bottom: solid white 1px;
@@ -150,4 +159,19 @@ p {
 #insideP {
   text-align: center;
   border: none;
+}
+
+.blockA {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 115px;
+  right: 325px;
+  font-size: 60px;
+  border: solid rgb(194, 194, 194) 1px;
+  color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: rgb(33, 168, 132);
 }
