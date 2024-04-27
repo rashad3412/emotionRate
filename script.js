@@ -187,6 +187,8 @@ function displayHappyText() {
     revealEmotions.textContent = "Happy";
     revealEmotions.style.color = "white";
     revealEmotions.style.opacity = "1";
+    revealEmotions.style.fontFamily = "cursive";
+    revealEmotions.style.fontSize = "22px";
 
     circles[0].textContent = happyArr[0].emotion;
     circles[1].textContent = happyArr[1].emotion;
@@ -205,10 +207,13 @@ function displaySadText() {
     mouseOutSad();
     clearInterval(myInterval);
     clearTimeout(pageLoad);
+    removeA.remove();
 
     revealEmotions.textContent = "Sad";
     revealEmotions.style.color = "white";
     revealEmotions.style.opacity = "1";
+    revealEmotions.style.fontFamily = "cursive";
+    revealEmotions.style.fontSize = "22px";
 
     circles[0].textContent = sadArr[0].emotion;
     circles[1].textContent = sadArr[1].emotion;
@@ -226,10 +231,13 @@ function displayAngerText() {
     mouseOutAnger();
     clearInterval(myInterval);
     clearTimeout(pageLoad);
+    removeA.remove();
 
     revealEmotions.textContent = "Angry";
     revealEmotions.style.color = "white";
     revealEmotions.style.opacity = "1";
+    revealEmotions.style.fontFamily = "cursive";
+    revealEmotions.style.fontSize = "22px";
 
     circles[0].textContent = angryArr[0].emotion;
     circles[1].textContent = angryArr[1].emotion;
@@ -247,10 +255,13 @@ function displayBoredText() {
     mouseOutBored();
     clearInterval(myInterval);
     clearTimeout(pageLoad);
+    removeA.remove();
 
     revealEmotions.textContent = "Bored";
     revealEmotions.style.color = "white";
     revealEmotions.style.opacity = "1";
+    revealEmotions.style.fontFamily = "cursive";
+    revealEmotions.style.fontSize = "22px";
 
     circles[0].textContent = boredArr[0].emotion;
     circles[1].textContent = boredArr[1].emotion;
@@ -471,11 +482,11 @@ function pageLoad() {
     revealEmotions.style.opacity = "1";
   }, 100);
   setTimeout(() => {
-    revealEmotions.style.color = "Blue";
+    revealEmotions.style.color = "";
     revealEmotions.style.opacity = "0";
   }, 600);
   setTimeout(() => {
-    revealEmotions.style.color = "Green";
+    revealEmotions.style.color = "white";
     revealEmotions.style.opacity = "1";
   }, 1000);
 }
