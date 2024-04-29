@@ -1,8 +1,5 @@
 # emotionRate
 
-<!-- -- Change the font, review functions and names before moving on. Figure out your color gradients dont over think it. Find an animation you will like to use as well.
--- Make comments of everything and write a brief summary of everything you are doing and your process as well on the wake up. -->
-
 -- An interactive application that shows Emotions and Qoutes that represent those emotions
 -- Use Object literals, Arrays, Key Value Pairs, Properties,
 -- For Loops, DOM maunipulation, HTML elements, CSS styling, Function Declarations, Arrow Functions, Event Handlers, WebApi...
